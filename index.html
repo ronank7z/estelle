@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Yellowtail&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./src/css/home.css" />
+    <link rel="stylesheet" href="./src/css/index.css" />
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
@@ -28,14 +28,18 @@
           <div class="search-form">
             <input type="text" id="search-box" placeholder="Search here..." />
             <label for="search-box">
-              <i data-feather="search"></i>
+              <i class="nav-icon" id="search-btn" data-feather="search"></i>
             </label>
           </div>
           <a href="#user-btn" target="_blank">
-            <i data-feather="user"></i>
+            <i class="nav-icon" id="user-btn" data-feather="user"></i>
           </a>
           <a href="#cart-btn" target="_blank">
-            <i data-feather="shopping-cart"></i>
+            <i
+              class="nav-icon"
+              id="shopping-cart-btn"
+              data-feather="shopping-cart"
+            ></i>
           </a>
         </div>
       </nav>
@@ -47,7 +51,7 @@
           </p>
           <button class="cta">Buy Now</button>
         </div>
-        <div class="boxArrow">
+        <div class="boxArrow" id="boxArrow">
           <span></span>
           <span></span>
           <span></span>
@@ -199,22 +203,30 @@
         </div>
       </section>
       <footer class="footer">
-        <span>Estelle</span> made with &hearts;<i
+        <span>Estelle</span> made with
+        <i
           data-feather="heart"
-          style="height: 0.9rem; width: 0.9rem; fill: red"
+          style="
+            height: 0.9rem;
+            width: 0.9rem;
+            fill: red;
+            margin-left: 0.3rem;
+            margin-right: 0.3rem;
+          "
         ></i>
         &copy; 2023
       </footer>
       <button id="scroll-button-up" onClick="scrollToTop()">
         <i
+          id="arrow-up"
           data-feather="arrow-up"
-          style="height: 1.4rem; width: 1.4rem; stroke: #fff"
+          style="height: 2rem; width: 2rem; stroke: #fff"
         ></i>
       </button>
     </div>
     <script>
       feather.replace();
     </script>
-    <script src="./src/js/home.js"></script>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>

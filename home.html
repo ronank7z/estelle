@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estelle | Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/home.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div>
+      <nav id="navbar">
+        <div class="left-nav">
+          <a href="#" target="_blank" class="active"> Home </a>
+          <a href="#shop" target="_blank"> Shop </a>
+          <a href="#product" target="_blank"> Product </a>
+        </div>
+        <div class="logo-img">
+          <h1>Estelle</h1>
+        </div>
+        <div class="right-nav">
+          <div class="search-form">
+            <input type="text" id="search-box" placeholder="Search here..." />
+            <label for="search-box">
+              <i data-feather="search"></i>
+            </label>
+          </div>
+          <a href="#user-btn" target="_blank">
+            <i data-feather="user"></i>
+          </a>
+          <a href="#cart-btn" target="_blank">
+            <i data-feather="shopping-cart"></i>
+          </a>
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="content">
+          <h1>Style & Elegance</h1>
+          <p>
+            Beberapa kalimat yang bisa mendukung user untuk membeli produk kamu
+          </p>
+          <button class="cta">Buy Now</button>
+        </div>
+        <div class="boxArrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="content">
+          <h1>Categories</h1>
+          <div class="categories-list">
+            <div
+              class="row"
+              style="background-image: url('./src/images/dress-categories.jpg')"
+            >
+              <button class="btn">
+                Dress <i data-feather="arrow-right-circle"></i>
+              </button>
+            </div>
+            <div
+              class="row"
+              style="background-image: url('./src/images/top-categories.jpg')"
+            >
+              <button class="btn">
+                Top <i data-feather="arrow-right-circle"></i>
+              </button>
+            </div>
+            <div
+              class="row"
+              style="
+                background-image: url('./src/images/bottom-categories.jpg');
+              "
+            >
+              <button class="btn">
+                Bottom <i data-feather="arrow-right-circle"></i>
+              </button>
+            </div>
+            <div
+              class="row"
+              style="
+                background-image: url('./src/images/accessories-categories.jpg');
+              "
+            >
+              <button class="btn">
+                Accessories <i data-feather="arrow-right-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new-arrival">
+        <div class="content">
+          <h1>New Arrivals</h1>
+          <div class="new-arrival-list">
+            <div class="row">
+              <img src="./src/images/new-arrival-1.jpg" alt="new-arrival-1" />
+              <span>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </span>
+              <p class="new-arrival-product-title">Estelle Dress Basic</p>
+              <p class="new-arrival-product-price">Rp. 250.000</p>
+            </div>
+            <div class="row">
+              <img src="./src/images/new-arrival-1.jpg" alt="new-arrival-1" />
+              <span>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </span>
+              <p class="new-arrival-product-title">Estelle Dress Basic</p>
+              <p class="new-arrival-product-price">Rp. 250.000</p>
+            </div>
+            <div class="row">
+              <img src="./src/images/new-arrival-1.jpg" alt="new-arrival-1" />
+              <span>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </span>
+              <p class="new-arrival-product-title">Estelle Dress Basic</p>
+              <p class="new-arrival-product-price">Rp. 250.000</p>
+            </div>
+            <div class="row">
+              <div class="disc">
+                <p>-75%</p>
+              </div>
+              <img src="./src/images/new-arrival-1.jpg" alt="new-arrival-1" />
+              <span>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+                <i data-feather="star"></i>
+              </span>
+              <p class="new-arrival-product-title">Estelle Dress Basic</p>
+              <p class="new-arrival-product-price">Rp. 250.000</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us">
+        <div class="content">
+          <div class="store-location">
+            <h1>Come to our offline store</h1>
+            <iframe
+              title="store-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8163099272388!2d109.35252167575808!3d-0.05751803551911556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59ecbc82d531%3A0xa3d4633a3d0542e7!2sSD%20Bina%20Mulia!5e0!3m2!1sid!2sid!4v1685614180283!5m2!1sid!2sid"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="social-media">
+            <h1>Follow Us</h1>
+            <div class="social-media-detail">
+              <i data-feather="instagram" style="height: 2rem; width: 2rem"></i>
+              <a href="https://instagram.com/_ronankz">@_ronankz</a>
+            </div>
+            <div class="social-media-detail">
+              <i data-feather="facebook" style="height: 2rem; width: 2rem"></i>
+              <a href="https://facebook.com/_ronankz">Ronan Khow Aliang</a>
+            </div>
+            <div class="social-media-detail">
+              <i data-feather="twitter" style="height: 2rem; width: 2rem"></i>
+              <a href="https://twitter.com/_ronankz">@_ronankz</a>
+            </div>
+            <div class="social-media-detail">
+              <i data-feather="mail" style="height: 2rem; width: 2rem"></i>
+              <a href="mailto:hackronan90@gmail.com">hackronan90@gmail.com</a>
+            </div>
+          </div>
+          <div class="subscribe">
+            <h1>Subscribe</h1>
+            <div class="input-group">
+              <form>
+                <input typee="text" />
+                <button type="submit" class="subscribe-btn">
+                  Get Latest Update
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <span>Estelle</span> made with &hearts;<i
+          data-feather="heart"
+          style="height: 0.9rem; width: 0.9rem; fill: red"
+        ></i>
+        &copy; 2023
+      </footer>
+      <button id="scroll-button-up" onClick="scrollToTop()">
+        <i
+          data-feather="arrow-up"
+          style="height: 1.4rem; width: 1.4rem; stroke: #fff"
+        ></i>
+      </button>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+    <script src="./src/js/home.js"></script>
+  </body>
+</html>
